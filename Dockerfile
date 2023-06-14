@@ -48,4 +48,6 @@ ENV USE_CCACHE=1
 ENV CCACHE_EXEC=/usr/bin/ccache
 ENV CCACHE_DIR=/home/builder/.ccache
 
+WORKDIR /home/builder
+
 USER builder
