@@ -12,27 +12,28 @@ RUN apt-get update -qq && \
     bc \
     bison \
     brotli \
-    ccache \
     ca-certificates \
+    ccache \
     curl \
+    file \
     flex \
+    fontconfig \
     gcc \
     git \
     libc6-dev \
-    libssl-dev \
-    libncurses5 \
     libfreetype6 \
+    libncurses5 \
+    libncurses5-dev \
+    libssl-dev \
     make \
     openssl \
     python3 \
     rsync \
     ssh \
+    unzip \
     wget \
     zip \
-    unzip \
     zstd \
-    fontconfig \
-    libncurses5-dev \
     && rm -rf /var/lib/apt/lists/*
 
 RUN curl https://storage.googleapis.com/git-repo-downloads/repo \
