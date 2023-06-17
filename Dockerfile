@@ -11,6 +11,7 @@ RUN apt-get update -qq && \
     apt-get install --no-install-recommends -y \
     bc \
     bison \
+    brotli \
     ccache \
     ca-certificates \
     curl \
